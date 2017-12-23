@@ -87,5 +87,94 @@ function closeNav6() {
     document.getElementById("myNav6").style.width = "0%";
 }
 
-//DELAYED CLOSE
+//KEEP HIGHLIGHTED
 
+function keepHigh1() {
+    document.getElementById("myMenu1").style.fontWeight = "800";
+    document.getElementById("myMenu2").style.fontWeight = "400";
+    document.getElementById("myMenu3").style.fontWeight = "400";
+    document.getElementById("myMenu4").style.fontWeight = "400";
+    document.getElementById("myMenu5").style.fontWeight = "400";
+    document.getElementById("myMenu6").style.fontWeight = "400";
+    document.getElementById("myMenu1").style.color = "#646464";
+    document.getElementById("myMenu2").style.color = "#b4b4b4";
+    document.getElementById("myMenu3").style.color = "#b4b4b4";
+    document.getElementById("myMenu4").style.color = "#b4b4b4";
+    document.getElementById("myMenu5").style.color = "#b4b4b4";
+    document.getElementById("myMenu6").style.color = "#b4b4b4";
+}
+
+function keepHigh2() {
+    document.getElementById("myMenu2").style.fontWeight = "800";
+    document.getElementById("myMenu1").style.fontWeight = "400";
+    document.getElementById("myMenu3").style.fontWeight = "400";
+    document.getElementById("myMenu4").style.fontWeight = "400";
+    document.getElementById("myMenu5").style.fontWeight = "400";
+    document.getElementById("myMenu6").style.fontWeight = "400";
+    document.getElementById("myMenu2").style.color = "#646464";
+    document.getElementById("myMenu1").style.color = "#b4b4b4";
+    document.getElementById("myMenu3").style.color = "#b4b4b4";
+    document.getElementById("myMenu4").style.color = "#b4b4b4";
+    document.getElementById("myMenu5").style.color = "#b4b4b4";
+    document.getElementById("myMenu6").style.color = "#b4b4b4";
+}
+
+function keepHigh3() {
+    document.getElementById("myMenu3").style.fontWeight = "800";
+    document.getElementById("myMenu1").style.fontWeight = "400";
+    document.getElementById("myMenu2").style.fontWeight = "400";
+    document.getElementById("myMenu4").style.fontWeight = "400";
+    document.getElementById("myMenu5").style.fontWeight = "400";
+    document.getElementById("myMenu6").style.fontWeight = "400";
+    document.getElementById("myMenu3").style.color = "#646464";
+    document.getElementById("myMenu1").style.color = "#b4b4b4";
+    document.getElementById("myMenu2").style.color = "#b4b4b4";
+    document.getElementById("myMenu4").style.color = "#b4b4b4";
+    document.getElementById("myMenu5").style.color = "#b4b4b4";
+    document.getElementById("myMenu6").style.color = "#b4b4b4";
+}
+
+function keepHigh4() {
+    document.getElementById("myMenu4").style.fontWeight = "800";
+    document.getElementById("myMenu1").style.fontWeight = "400";
+    document.getElementById("myMenu2").style.fontWeight = "400";
+    document.getElementById("myMenu3").style.fontWeight = "400";
+    document.getElementById("myMenu5").style.fontWeight = "400";
+    document.getElementById("myMenu6").style.fontWeight = "400";
+    document.getElementById("myMenu4").style.color = "#646464";
+    document.getElementById("myMenu1").style.color = "#b4b4b4";
+    document.getElementById("myMenu2").style.color = "#b4b4b4";
+    document.getElementById("myMenu3").style.color = "#b4b4b4";
+    document.getElementById("myMenu5").style.color = "#b4b4b4";
+    document.getElementById("myMenu6").style.color = "#b4b4b4";
+}
+
+function keepHigh5() {
+    document.getElementById("myMenu5").style.fontWeight = "800";
+    document.getElementById("myMenu1").style.fontWeight = "400";
+    document.getElementById("myMenu2").style.fontWeight = "400";
+    document.getElementById("myMenu3").style.fontWeight = "400";
+    document.getElementById("myMenu4").style.fontWeight = "400";
+    document.getElementById("myMenu6").style.fontWeight = "400";
+    document.getElementById("myMenu5").style.color = "#646464";
+    document.getElementById("myMenu1").style.color = "#b4b4b4";
+    document.getElementById("myMenu2").style.color = "#b4b4b4";
+    document.getElementById("myMenu3").style.color = "#b4b4b4";
+    document.getElementById("myMenu4").style.color = "#b4b4b4";
+    document.getElementById("myMenu6").style.color = "#b4b4b4";
+}
+
+function keepHigh6() {
+    document.getElementById("myMenu6").style.fontWeight = "800";
+    document.getElementById("myMenu1").style.fontWeight = "400";
+    document.getElementById("myMenu2").style.fontWeight = "400";
+    document.getElementById("myMenu3").style.fontWeight = "400";
+    document.getElementById("myMenu4").style.fontWeight = "400";
+    document.getElementById("myMenu5").style.fontWeight = "400";
+    document.getElementById("myMenu6").style.color = "#646464";
+    document.getElementById("myMenu1").style.color = "#b4b4b4";
+    document.getElementById("myMenu2").style.color = "#b4b4b4";
+    document.getElementById("myMenu3").style.color = "#b4b4b4";
+    document.getElementById("myMenu4").style.color = "#b4b4b4";
+    document.getElementById("myMenu5").style.color = "#b4b4b4";
+}

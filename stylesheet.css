@@ -21,6 +21,79 @@ body, html {
     margin: 0 auto;
 }
 
+.nav-content {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: none;
+    padding-left: 8%;
+    display: flex;
+}
+
+.nav-logo {
+    padding: 0;
+    margin: 0;
+    width: 10%;
+    height: 100%;
+    background-color: rgb(240,240,240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo p {
+    margin: 0 auto;
+    color: rgb(180,180,180);
+    font-family: Lobster;
+    font-size: 1.1em;
+}
+
+.nav-logo p:hover {
+    color: rgb(100,100,100);
+}
+
+.empty {
+    background-color: none;
+    width: 60%;
+}
+
+.links {
+    background-color: none;
+    width: 10%;
+    height: 100%;
+    padding-left: 8%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons i {
+    padding: 20px;
+    text-align: center;
+    color: rgb(180,180,180);
+}
+
+.icons i {
+    text-decoration: none;
+}
+
+.icons i:hover {
+    color: rgb(100,100,100);
+}
+
+.icons i:visited {
+    color: rgb(180,180,180);
+}
+
 .content {
     height: 90%;
     width: 90%;
@@ -56,24 +129,64 @@ body, html {
     position: relative;
     top: 25%;
     width: 100%;
-    text-align: center;
+    align-content: center;
+    justify-content: center;
     margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.overlay-content-full {
+    width: 100%;
+    margin: 0;
+    margin-left: 20%;
+    margin-right: 15%;
+}
+
+.overlay-content-left {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 0;
+}
+
+.overlay-content-empty {
+    width: 20%;
+    padding: 0;
+}
+
+.overlay-content-right {
+    width: 60%;
+    margin-right: 10%;
 }
 
 .overlay-content p {
-    color: white;
+    padding: 0;
+    color: rgb(100,100,100);
+    font-size: 20px;
+    font-family: Work Sans;
 }
 
-.overlay a {
+.overlay-content a {
+    text-decoration: none;
+    border-bottom: 2px solid rgb(100,100,100);
+    color: rgb(100,100,100);
+}
+
+.overlay-content a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid white;   
+}
+
+
+.button a {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
     color: #818181;
     display: block;
     transition: 0.3s;
 }
 
-.overlay a:hover, .overlay a:focus {
+.button a:hover, .button a:focus {
     color: #f1f1f1;
 }
 
@@ -81,7 +194,7 @@ body, html {
     position: absolute;
     top: 20px;
     right: 45px;
-    font-size: 60px;
+    font-size: 30px;
 }
 
 @media screen and (max-height: 450px) {
@@ -155,10 +268,35 @@ body, html {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 0.7em;
-    color: rgb(180,180,180);
-    font-family: Arial;
+    font-family: Work Sans;
 }
 
 .menu ul li:hover {
     color: rgb(100,100,100);
+    font-weight: 800;
+}
+
+#myMenu1 {
+    font-weight: 800;
+    color: #646464;
+}
+
+#myMenu2 {
+    color: #b4b4b4;
+}
+
+#myMenu3 {
+    color: #b4b4b4;
+}
+
+#myMenu4 {
+    color: #b4b4b4;
+}
+
+#myMenu5 {
+    color: #b4b4b4;
+}
+
+#myMenu6 {
+    color: #b4b4b4;
 }

@@ -3,11 +3,19 @@
 
 <head>
 
+    <script src="https://use.fontawesome.com/5fa2aab81b.js"></script>
+    
     <title>---</title>
     
     <meta name="description" content="----"/>
     
     <link rel='stylesheet' formats='text/css' href='stylesheet.css'/>
+    
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,800" rel="stylesheet">
     
 </head>
     
@@ -20,7 +28,31 @@
         <!--Nav bar-->
           
             <div class="nav-content">
+                
+                <div class="nav-logo">
+                
+                    <p style="cursor:pointer" onclick="closeNav2();closeNav3();closeNav4();closeNav5();closeNav6();keepHigh1()">Rebecca<br>Lind</p>
+                    
+                </div>
+                
+                <div class="empty">
+                
+                </div>
+                
+                <div class="links">
+                    
+                    <div class="icons">
 
+                        <a href="mailto:rebecca.lind@hyperisland.se"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        
+                        <a href="http://linkedin.com/in/lindrebecca"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        
+                        <a href="https://github.com/rebeccalind/"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+                    </div>
+                        
+                </div>
+                
             </div>
             
         </div>
@@ -31,14 +63,34 @@
             <div class="info">
             <!--Information-->
                 
+                <div class="overlay-content">
+                          
+                        <div class="overlay-content-full">
+                            
+                               <p>I am Rebecca, and I study at <a href="#">Hyper Island</a></p>
+                            
+                        </div>
+                          
+                </div>
+                
                 <div id="myNav2" class="overlay">
 
                     <div class="color2">
                     
-                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav2();closeNav3();closeNav4();closeNav5();closeNav6()">&times;</a>
+                        <div class="button">
+
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav2();closeNav3();closeNav4();closeNav5();closeNav6()">&times;</a>
+                            
+                        </div>
 
                       <div class="overlay-content">
-                          <p>2</p>
+                          
+                        <div class="overlay-content-full">
+
+                            <p>I used to study <a href="#">Mechanical Engineering at KTH.</a> Cool huh?</p>
+                            
+                        </div>
+                          
                       </div>
                     
                     </div>
@@ -48,11 +100,31 @@
                 <div id="myNav3" class="overlay">
                     
                     <div class="color3">
+                        
+                        <div class="button">
 
-                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav2();closeNav3();closeNav4();closeNav5();closeNav6()">&times;</a>
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav2();closeNav3();closeNav4();closeNav5();closeNav6()">&times;</a>
+                            
+                        </div>
 
                       <div class="overlay-content">
-                          <p>3</p>
+                        
+                        <div class="overlay-content-left">
+
+                            <p>Left</p>
+                            
+                        </div>
+                          
+                        <div class="overlay-content-empty">
+                          
+                        </div>
+                          
+                        <div class="overlay-content-right">
+
+                            <p>Right</p>
+                            
+                        </div>
+                          
                       </div>
                     
                     </div>
@@ -63,7 +135,11 @@
                     
                     <div class="color4">
 
-                          <a href="javascript:void(0)" class="closebtn" onclick="closeNav2();closeNav3();closeNav4();closeNav5();closeNav6()">&times;</a>
+                        <div class="button">
+
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav2();closeNav3();closeNav4();closeNav5();closeNav6()">&times;</a>
+                            
+                        </div>
 
                           <div class="overlay-content">
                               <p>4</p>
@@ -77,7 +153,11 @@
                     
                     <div class="color5">
 
-                          <a href="javascript:void(0)" class="closebtn" onclick="closeNav2();closeNav3();closeNav4();closeNav5();closeNav6()">&times;</a>
+                        <div class="button">
+
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav2();closeNav3();closeNav4();closeNav5();closeNav6()">&times;</a>
+                            
+                        </div>
 
                           <div class="overlay-content">
                               <p>5</p>
@@ -91,7 +171,11 @@
                     
                     <div class="color6">
 
-                          <a href="javascript:void(0)" class="closebtn" onclick="closeNav2();closeNav3();closeNav4();closeNav5();closeNav6()">&times;</a>
+                        <div class="button">
+
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav2();closeNav3();closeNav4();closeNav5();closeNav6()">&times;</a>
+                            
+                        </div>
 
                           <div class="overlay-content">
                               <p>6</p>
@@ -110,17 +194,17 @@
 
                     <ul>
 
-                        <li><span style="cursor:pointer" onclick="closeNav2();closeNav3();closeNav4();closeNav5();closeNav6()">INTRO</span></li>
+                        <div id="myMenu1"><li><span style="cursor:pointer" onclick="closeNav2();closeNav3();closeNav4();closeNav5();closeNav6();keepHigh1()">INTRO</span></li></div>
 
-                        <li><span style="cursor:pointer" onclick="openNav2()">ABOUT ME</span></li>
+                        <div id="myMenu2"><li><span style="cursor:pointer" onclick="openNav2();keepHigh2()">ABOUT ME</span></li></div>
 
-                        <li><span style="cursor:pointer" onclick="openNav3()">EXPERIENCE</span></li>
+                        <div id="myMenu3"><li><span style="cursor:pointer" onclick="openNav3();keepHigh3()">EXPERIENCE</span></li></div>
 
-                        <li><span style="cursor:pointer" onclick="openNav4()">EDUCATION</span></li>
+                        <div id="myMenu4"><li><span style="cursor:pointer" onclick="openNav4();keepHigh4()">EDUCATION</span></li></div>
 
-                        <li><span style="cursor:pointer" onclick="openNav5()">PROJECTS</span></li>
+                        <div id="myMenu5"><li><span style="cursor:pointer" onclick="openNav5();keepHigh5()">PROJECTS</span></li></div>
 
-                        <li><span style="cursor:pointer" onclick="openNav6()">LINKS</span></li>
+                        <div id="myMenu6"><li><span style="cursor:pointer" onclick="openNav6();keepHigh6()">LINKS</span></li></div>
 
                     </ul>
 
