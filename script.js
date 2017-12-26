@@ -178,3 +178,7 @@ function keepHigh6() {
     document.getElementById("myMenu4").style.color = "#b4b4b4";
     document.getElementById("myMenu5").style.color = "#b4b4b4";
 }
+
+//SCROLL
+
+document.getElementById("myNav2").addEventListener("scroll", openNav3);
