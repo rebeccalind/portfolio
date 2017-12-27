@@ -168,10 +168,15 @@ body, html {
     margin-right: 10%;
 }
 
-.overlay-content p, li {
-    width: 100%;
+.overlay-content p {
     padding: 0;
     color: rgb(100,100,100);
+    font-size: 20px;
+    font-family: Work Sans;
+}
+
+li {
+        color: rgb(100,100,100);
     font-size: 20px;
     font-family: Work Sans;
 }
