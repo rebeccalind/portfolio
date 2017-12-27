@@ -186,6 +186,15 @@ body, html {
     border-bottom: 2px solid white;   
 }
 
+.hover a {
+    border-bottom: none;
+}
+
+.hover a:hover {
+    color: white;
+    border-bottom: none;
+}
+
 .button {
     width: 20%;
     display: flex;
