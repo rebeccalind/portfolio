@@ -81,9 +81,6 @@ body, html {
     padding: 20px;
     text-align: center;
     color: rgb(180,180,180);
-}
-
-.icons i {
     text-decoration: none;
 }
 
@@ -211,6 +208,14 @@ li {
     border-bottom: none;
 }
 
+.title-mobile {
+    visibility: hidden;
+}
+    
+.title-mobile p {
+    visibility: hidden;
+}
+
 .button {
     width: 20%;
     display: flex;
@@ -249,6 +254,18 @@ li {
     top: 20px;
     right: 80px;
     font-size: 30px;
+}
+
+.closebtn-mobile {
+    visibility: hidden;
+}
+
+.nextbtn-mobile {
+    visibility: hidden;
+}
+
+.lastbtn-mobile {
+    visibility: hidden;
 }
 
 .color2 {
@@ -349,6 +366,29 @@ li {
 /*RESPOSIVE*/
 
 @media only screen and (max-width: 1200px) {
+
+    .nav-logo {
+        padding: 0;
+        margin: 0;
+        width: 30%;
+        height: 100%;
+        background-color: rgb(240,240,240);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-logo p {
+        margin: 0 auto;
+        color: rgb(180,180,180);
+        font-family: Lobster;
+        font-size: 40px;
+    }
+    
+    .empty {
+        background-color: none;
+        width: 40%;
+    }
     
     .menudiv {
         width: 0%;
@@ -363,12 +403,81 @@ li {
         background-color: black;
     }
     
+    .title-mobile {
+        visibility: visible;
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 20%;
+    }
+    
+    .title-mobile p {
+        visibility: visible;
+        font-family: Work Sans;
+        font-size: 50px;
+        color: rgb(100,100,100);
+    }
+    
+    .overlay-content {
+        position: relative;
+        top: 0%;
+        width: 90%;
+        align-content: center;
+        justify-content: center;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
     .overlay-content p {
         font-size: 30px;
     }
     
+    .overlay-content-left {
+        min-width: 95%;
+        margin-left: 10%;
+        margin-right: 0;
+    }
+
+    .overlay-content-empty {
+        visibility: hidden;
+    }
+
+    .overlay-content-right {
+        min-width: 95%;
+        margin-right: 0;
+        margin-left: 10%;
+    }
+    
     .overlay-content-left li {
         font-size: 30px;
+    }
+    
+    .overlay-content-full {
+        width: 100%;
+        margin: 0;
+        margin-left: 10%;
+        padding-right: 4%;
+    }
+
+    .overlay-content-full-empty {
+        width: 10%;
+        margin-right: 10%;
+    }
+
+    .overlay-content-left {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 0;
+    }
+
+    .overlay-content-empty {
+        width: 10%;
+        padding: 0;
+    }
+
+    .overlay-content-right {
+        width: 80%;
+        margin-right: 10%;
     }
     
     .button {
@@ -395,6 +504,7 @@ li {
     }
     
     .closebtn-mobile {
+        visibility: visible;
         position: absolute;
         bottom: 100px;
         right: 90px;
@@ -402,6 +512,7 @@ li {
     }
 
     .nextbtn-mobile {
+        visibility: visible;
         position: absolute;
         bottom: 100px;
         right: 30px;
@@ -409,11 +520,11 @@ li {
     }
 
     .lastbtn-mobile {
+        visibility: visible;
         position: absolute;
         bottom: 100px;
         right: 150px;
         font-size: 70px;
     }
-    
     
 }
