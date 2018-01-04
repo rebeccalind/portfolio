@@ -181,7 +181,7 @@ body, html {
 }
 
 li {
-        color: rgb(100,100,100);
+    color: rgb(100,100,100);
     font-size: 20px;
     font-family: Work Sans;
 }
@@ -345,4 +345,12 @@ li {
 
 #myMenu6 {
     color: #b4b4b4;
+}
+
+/*RESPOSIVE*/
+
+@media only screen and (max-width: 1200px) {
+    
+    
+    
 }
