@@ -181,7 +181,7 @@ function keepHigh6() {
 
 //MOBILE
 
-if (window.screen.width <= 1200) {
+if (window.screen.width <= 1024) {
   
     function openNav2() {
         document.getElementById("myNav2").style.width = "100%";
@@ -203,6 +203,13 @@ if (window.screen.width <= 1200) {
         document.getElementById("myNav6").style.width = "100%";
     }
     
+    //IMG
+    document.getElementById("img").src= "img-cropped";
+    
+    //ICONS
+    document.getElementById("fa fa-envelope").className = "fa fa-envelope fa-3x";
+    document.getElementById("fa fa-linkedin-square").className = "fa fa-linkedin-square fa-3x";
+    document.getElementById("fa fa-github").className = "fa fa-github fa-3x";
 
 }
 
