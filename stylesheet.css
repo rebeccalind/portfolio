@@ -19,6 +19,7 @@ body, html {
     text-align: center;
     align-content: center;
     margin: 0 auto;
+    position: fixed;
 }
 
 .nav-content {
@@ -187,7 +188,7 @@ li {
 }
 
 .overlay-content img {
-    width: 90%;
+    max-width: 80%;
 }
 
 .overlay-content a {
@@ -243,13 +244,11 @@ li {
     font-size: 30px;
 }
 
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
+.lastbtn {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    font-size: 30px;
 }
 
 .color2 {
@@ -351,6 +350,70 @@ li {
 
 @media only screen and (max-width: 1200px) {
     
+    .menudiv {
+        width: 0%;
+    }
+
+    .menu {
+        visibility: hidden;
+    }
+    
+    .info {
+        width: 100%;
+        background-color: black;
+    }
+    
+    .overlay-content p {
+        font-size: 30px;
+    }
+    
+    .overlay-content-left li {
+        font-size: 30px;
+    }
+    
+    .button {
+        visibility: hidden;
+    }
+    
+    .button-mobile {
+        width: 20%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    .button-mobile a {
+        padding: 8px;
+        text-decoration: none;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .button-mobile a:hover, .button a:focus {
+        color: #f1f1f1;
+    }
+    
+    .closebtn-mobile {
+        position: absolute;
+        bottom: 100px;
+        right: 90px;
+        font-size: 70px;
+    }
+
+    .nextbtn-mobile {
+        position: absolute;
+        bottom: 100px;
+        right: 30px;
+        font-size: 70px;
+    }
+
+    .lastbtn-mobile {
+        position: absolute;
+        bottom: 100px;
+        right: 150px;
+        font-size: 70px;
+    }
     
     
 }
