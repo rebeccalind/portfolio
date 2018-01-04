@@ -178,3 +178,32 @@ function keepHigh6() {
     document.getElementById("myMenu4").style.color = "#b4b4b4";
     document.getElementById("myMenu5").style.color = "#b4b4b4";
 }
+
+//MOBILE
+
+if (window.screen.width <= 1200) {
+  
+    function openNav2() {
+        document.getElementById("myNav2").style.width = "100%";
+      }
+    
+    function openNav3() {
+        document.getElementById("myNav3").style.width = "100%";
+    }
+    
+    function openNav4() {
+        document.getElementById("myNav4").style.width = "100%";
+    }
+    
+    function openNav5() {
+        document.getElementById("myNav5").style.width = "100%";
+    }
+    
+    function openNav6() {
+        document.getElementById("myNav6").style.width = "100%";
+    }
+    
+
+}
+
+

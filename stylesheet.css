@@ -506,25 +506,34 @@ li {
     .closebtn-mobile {
         visibility: visible;
         position: absolute;
-        bottom: 100px;
-        right: 90px;
-        font-size: 70px;
+        bottom: 50px;
+        right: 100px;
+        font-size: 80px;
     }
 
     .nextbtn-mobile {
         visibility: visible;
         position: absolute;
-        bottom: 100px;
+        bottom: 50px;
         right: 30px;
-        font-size: 70px;
+        font-size: 80px;
     }
-
+    
     .lastbtn-mobile {
         visibility: visible;
         position: absolute;
-        bottom: 100px;
-        right: 150px;
-        font-size: 70px;
+        bottom: 50px;
+        right: 170px;
+        font-size: 80px;
     }
+
+    .nextbtn-mobile1 {
+        visibility: visible;
+        position: absolute;
+        bottom: 50px;
+        right: 30px;
+        font-size: 80px;
+    }
+
     
 }
